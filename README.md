@@ -1,4 +1,4 @@
-**Tron Arbitrage Bot** is a .NET application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors  decentralized exchange [sunswap.com/](https://sunswap.com/ for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
+**Tron Arbitrage Bot** is a .NET application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors  decentralized exchange [SunSwap](https://sunswap.com/) for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
 
 ## Features
 
@@ -74,9 +74,9 @@ MAX_GAS_PRICE=1000000000  # Maximum gas price in SUN for executing a trade
 
 ### How It Works
 
-The bot continuously monitors multiple DEXes on the TRON blockchain for price discrepancies between token pairs.
+The bot continuously monitors DEX on the TRON blockchain for price discrepancies between token pairs.
 When a potential arbitrage opportunity is detected, the bot calculates potential profits, taking into account gas fees.
-If the arbitrage opportunity meets the configured thresholds, the bot executes the trade on the selected DEXes.
+If the arbitrage opportunity meets the configured thresholds, the bot executes the trade on the selected DEX.
 The bot logs all activities and trades for review.
 
 ### Contributing
