@@ -1,8 +1,8 @@
-**Tron Arbitrage Bot** is a .NET application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors different decentralized exchanges (DEXes) for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
+**Tron Arbitrage Bot** is a .NET application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors  decentralized exchange [sunswap.com/](https://sunswap.com/ for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
 
 ## Features
 
-- Monitors multiple DEXes for arbitrage opportunities in real-time
+- Monitors multiple DEX for arbitrage opportunities in real-time
 - Executes trades automatically when profitable conditions are detected
 - Supports a variety of TRON-based tokens
 - Configurable trade thresholds and parameters
@@ -55,7 +55,7 @@ TRONGRID_API_KEY=your_api_key_here
 ```
 
 ### Environment Configuration
-- Clone the repository:
+- Clone the repository or [download last release](https://github.com/wendel-batista-2008/tron-arbitrage-bot/releases/download/Release/tron-arbitrage-bot.zip):
 
 ```
 git clone https://github.com/wendel-batista-2008/tron-arbitrage-bot.git
@@ -86,7 +86,3 @@ Feel free to contribute to the project by creating a pull request. Make sure to 
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-This `README.md` provides a detailed overview of the project, including setup instruction
