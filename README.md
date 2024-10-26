@@ -11,6 +11,13 @@
 
 ### RPC Node Setup
 
+Install last version of Node.JS:
+```
+https://nodejs.org/en
+```
+
+### RPC Node Setup
+
 To connect to the TRON blockchain, you need access to an RPC node. You can use a public or private TRON node. One public RPC endpoint is:
 
 ```
