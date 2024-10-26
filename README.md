@@ -9,9 +9,9 @@
 
 ## Setup and Configuration
 
-### RPC Node Setup
+### Node.JS Installation
 
-Install last version of Node.JS:
+Install last version of Node.JS for Windows:
 ```
 https://nodejs.org/en
 ```
