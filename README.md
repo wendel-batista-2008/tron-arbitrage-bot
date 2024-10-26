@@ -1,4 +1,4 @@
-**Tron Arbitrage Bot** is a .NET application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors  decentralized exchange [SunSwap](https://sunswap.com/) for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
+**Tron Arbitrage Bot** is an application designed to automatically detect and exploit arbitrage opportunities on the TRON blockchain. The bot monitors  decentralized exchange [SunSwap](https://sunswap.com/) for price discrepancies between trading pairs and executes trades to profit from arbitrage opportunities.
 
 ## Features
 
