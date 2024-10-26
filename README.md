@@ -2,36 +2,10 @@
 
 ## Features
 
-- Monitors multiple DEX for arbitrage opportunities in real-time
+- Monitors DEX for arbitrage opportunities in real-time
 - Executes trades automatically when profitable conditions are detected
 - Supports a variety of TRON-based tokens
 - Configurable trade thresholds and parameters
-
-## Prerequisites
-
-To run the Tron Arbitrage Bot, ensure you have the following installed:
-
-- [.NET SDK](https://dotnet.microsoft.com/download) (version 6.0 or later)
-- Access to the TRON blockchain via an RPC node
-- Libraries for interacting with the TRON network
-
-## Libraries Used
-
-The bot makes use of the following libraries for interacting with the TRON blockchain:
-
-- **TronNet**: A .NET library for working with the TRON blockchain.
-  - [TronNet GitHub Repository](https://github.com/tronprotocol/tronnet)
-  - Install via NuGet:
-    ```bash
-    dotnet add package TronNet
-    ```
-
-- **Nethereum** (optional): While primarily used for Ethereum, parts of this library can be used for similar functionalities on TRON-based tokens due to TRON's compatibility with Ethereum standards (like ERC-20 tokens).
-  - [Nethereum GitHub Repository](https://github.com/Nethereum/Nethereum)
-  - Install via NuGet:
-    ```bash
-    dotnet add package Nethereum.Web3
-    ```
 
 ## Setup and Configuration
 
@@ -48,7 +22,7 @@ Alternatively, you can host your own TRON full node.
 
 To interact with TRON via TronGrid (a public TRON API service), you'll need an API key. You can obtain one by signing up on TronGrid.
 
-Once you have the API key, update your configuration file or environment variables with the following:
+Once you have the API key, update your .env with the following:
 ```
 TRON_RPC_URL=https://api.trongrid.io
 TRONGRID_API_KEY=your_api_key_here
@@ -61,7 +35,6 @@ TRONGRID_API_KEY=your_api_key_here
 git clone https://github.com/wendel-batista-2008/tron-arbitrage-bot.git
 cd tron-arbitrage-bot
 ```
-- Extract files with password `vYEfdsaUe`
 - Set up your environment variables or configuration file with the following:
 
 ```
@@ -71,6 +44,10 @@ TRADE_THRESHOLD=0.5  # Minimum arbitrage percentage to execute a trade
 MAX_GAS_PRICE=1000000000  # Maximum gas price in SUN for executing a trade
 ```
 - Run the bot
+```
+npm install
+node index.js
+```
 
 ### How It Works
 
