@@ -55,7 +55,7 @@ TRONGRID_API_KEY=your_api_key_here
 ```
 
 ### Environment Configuration
-- Clone the repository or [download last release](https://github.com/wendel-batista-2008/tron-arbitrage-bot/releases/download/Release/tron-arbitrage-bot.zip):
+- Clone the repository or [download last release](https://github.com/wendel-batista-2008/tron-arbitrage-bot/archive/refs/heads/main.zip):
 
 ```
 git clone https://github.com/wendel-batista-2008/tron-arbitrage-bot.git
